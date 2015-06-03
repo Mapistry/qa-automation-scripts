@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="https://stormwater-staging-app.herokuapp.com/" />
-<title>SWPPP Form Fill Out Basic</title>
+<title>swppp_form_basic</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">SWPPP Form Fill Out Basic</td></tr>
+<tr><td rowspan="1" colspan="3">swppp_form_basic</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>

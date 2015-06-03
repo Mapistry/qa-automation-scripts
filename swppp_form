@@ -8,7 +8,7 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="SWPPP Form Fill Out Basic">SWPPP Form Fill Out Basic</a></td></tr>
+<tr><td><a href="swppp_form_basic">swppp_form_basic</a></td></tr>
 </tbody></table>
 </body>
 </html>
