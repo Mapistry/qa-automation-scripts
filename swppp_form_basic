@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://stormwater-staging-app.herokuapp.com/" />
+<title>SWPPP Form Fill Out Basic</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">SWPPP Form Fill Out Basic</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/swppp-form/form-submissions/43/form-sections/655</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-wdid</td>
+	<td>WDID</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-preparer-name</td>
+	<td>SWPPP Preparer Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-preparer-company</td>
+	<td>SWPPP Preparer Company</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contact-name</td>
+	<td>Contact Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contact-title</td>
+	<td>Contact Title</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contact-company</td>
+	<td>Contact Company</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contact-phone</td>
+	<td>(123) 456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contact-email</td>
+	<td>Contact Email</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lrp-name</td>
+	<td>LRP Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lrp-title</td>
+	<td>Title</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lrp-company</td>
+	<td>LRP Company</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lrp-phone</td>
+	<td>(321) 456-0987</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lrp-email</td>
+	<td>LRP email</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=certification-date</td>
+	<td>Date of certification</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=team-name</td>
+	<td>Team Member Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=team-title</td>
+	<td>Team Member Title</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=team-email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=team-email</td>
+	<td>Team Member Emails</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=team-phone</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=team-phone</td>
+	<td>(321) 546-1237</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select</td>
+	<td>QISP</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=alt-team-name</td>
+	<td>Alternate Team Member</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=alt-team-title</td>
+	<td>Alternate Team Member Title</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=alt-team-email</td>
+	<td>Alternate Team Member Email</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=alt-team-phone</td>
+	<td>(321) 321-1234</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select</td>
+	<td>air permit</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=receiving-water</td>
+	<td>Water Body</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=receiving-explanation</td>
+	<td>Receiving water connections</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=receiving-tmdl</td>
+	<td>TMDL</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=receiving-303d</td>
+	<td>303d water body</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=receiving-303d-parameters</td>
+	<td>impairment reason</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=facility-operations-desc</td>
+	<td>landfill</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=facility-operations-activities</td>
+	<td>aircraft fueling</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-operations-paved</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-operations-building</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-operations-start</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-operations-end</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=facility-operations-days</td>
+	<td>Monday</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=facility-operations-extended-days</td>
+	<td>Tuesday</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-operations-extended-start</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=facility-operations-extended-end</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=drainage-direction</td>
+	<td>North</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=drainage-convey</td>
+	<td>swales</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=drainage-location</td>
+	<td>swales off-site</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=drainage-run-on</td>
+	<td>berms</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=drainage-exposure</td>
+	<td>Industrial materials</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=drainage-narrative</td>
+	<td>Drainage Patterns</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=ind-mat-activity</td>
+	<td>recycling</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ind-mat-name</td>
+	<td>Industrial Material Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ind-mat-quantity</td>
+	<td>Quantity with unit</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=ind-mat-character</td>
+	<td>liquid</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ind-mat-location</td>
+	<td>Locations</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=ind-mat-frequency</td>
+	<td>daily</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ind-mat-containment</td>
+	<td>Secondarys</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=ind-mat-exposure</td>
+	<td>overflowing</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spill-material</td>
+	<td>material spilled</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=spill-character</td>
+	<td>powder</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spill-location</td>
+	<td>Location of spill</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spill-quantity-spill</td>
+	<td>Quantity spilled</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spill-quantity-discharge</td>
+	<td>Discharged</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spill-remediation</td>
+	<td>Remedial</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spill-potential</td>
+	<td>Remains</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=spill-preventative</td>
+	<td>tank replacement</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=nswd-source</td>
+	<td>fire hydrants or fire prevention/response system flushing</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nswd-quantity</td>
+	<td>Quantity of discharges</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=nswd-frequency</td>
+	<td>twice daily</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=nswd-character</td>
+	<td>powder</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nswd-drainage</td>
+	<td>Associated drainage areas</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=nswd-type</td>
+	<td>run-on</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=erodible-location</td>
+	<td>Erodible surfaces</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=min-bmp-explanation</td>
+	<td>minimum BMPS</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=bmp-name</td>
+	<td>BMP name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=bmp-desc</td>
+	<td>BMP description</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=bmp-pollutants</td>
+	<td>dust</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=bmp-frequency</td>
+	<td>hourly</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=bmp-location</td>
+	<td>industrial activity</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=bmp-team</td>
+	<td>individual responsible</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=bmp-operation</td>
+	<td>BMP operation procedures</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=bmp-tools</td>
+	<td>hand tools - shovel/broom</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=bmp-inspection</td>
+	<td>hourly</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=sample-locations</td>
+	<td>sample locations</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=sample-explanation</td>
+	<td>additional info</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=sample-parameters</td>
+	<td>Zinc (total) by SM 2540-D</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=sample-ph</td>
+	<td>pH describtion</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='form-section-content']/div/div[2]/div[2]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
